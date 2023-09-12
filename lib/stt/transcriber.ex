@@ -18,6 +18,12 @@ defprotocol STT.Transcriber do
           channels: non_neg_integer()
         }
 
+  @type conn_opts :: [
+          max_delay: non_neg_integer(),
+          owner: pid(),
+          enable_partials: boolean()
+        ]
+
   @typedoc """
   Message delivered by the transcriber to the calling process. Termination
   messages follow OTP guidelines, i.e. on normal termination expect an EXIT
@@ -31,7 +37,7 @@ defprotocol STT.Transcriber do
   @spec required_input_pad_format(t()) :: format()
   def required_input_pad_format(transcriber)
 
-  @spec connect(t(), Keyword.t()) :: {:ok, conn()} | {:error, any()}
+  @spec connect(t(), conn_opts()) :: {:ok, conn()} | {:error, any()}
   def connect(transcriber, opts)
 
   @spec close(t(), conn()) :: :ok
