@@ -25,6 +25,8 @@ defprotocol STT.Transcriber do
           language_code: String.t() | nil
         ]
 
+  @type language_code_type :: :bcp47 | :iso639 | :custom
+
   @typedoc """
   Message delivered by the transcriber to the calling process. Termination
   messages follow OTP guidelines, i.e. on normal termination expect an EXIT
@@ -47,6 +49,7 @@ defprotocol STT.Transcriber do
   @spec send_audio_buffer(t(), conn(), buffer()) :: :ok
   def send_audio_buffer(transcriber, conn, buffer)
 
-  @spec supported_languages(t()) :: [{String.t(), String.t()}]
+  @spec supported_languages(t()) ::
+          {language_code_type(), [{code :: String.t(), description :: String.t()}]}
   def supported_languages(transcriber)
 end
