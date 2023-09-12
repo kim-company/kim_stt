@@ -1,7 +1,7 @@
-defmodule Membrane.STT.Record do
+defmodule STT.Record do
   @type t :: %__MODULE__{
-          from: non_neg_integer(),
-          to: non_neg_integer(),
+          from: STT.Time.t(),
+          to: STT.Time.t(),
           text: String.t(),
           type: String.t(),
           is_eos: boolean() | nil,

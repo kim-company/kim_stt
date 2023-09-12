@@ -7,7 +7,7 @@ defprotocol STT.Transcriber do
   @typedoc """
   An audio buffer.
   """
-  @type buffer :: %{payload: binary(), pts: pos_integer(), metadata: map()}
+  @type buffer :: %{payload: binary(), pts: STT.Time.t(), metadata: map()}
 
   @typedoc """
   Format of the audio buffers received by the transcriber.
@@ -19,7 +19,7 @@ defprotocol STT.Transcriber do
         }
 
   @type conn_opts :: [
-          max_delay: non_neg_integer(),
+          max_delay: STT.Time.t(),
           owner: pid(),
           enable_partials: boolean(),
           language_code: String.t() | nil
