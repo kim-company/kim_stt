@@ -21,7 +21,8 @@ defprotocol STT.Transcriber do
   @type conn_opts :: [
           max_delay: non_neg_integer(),
           owner: pid(),
-          enable_partials: boolean()
+          enable_partials: boolean(),
+          language_code: String.t() | nil
         ]
 
   @typedoc """
