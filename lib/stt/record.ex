@@ -1,7 +1,7 @@
 defmodule STT.Record do
   @type t :: %__MODULE__{
-          from: STT.Time.t(),
-          to: STT.Time.t(),
+          from: pos_integer(),
+          to: pos_integer(),
           text: String.t(),
           type: String.t(),
           is_eos: boolean() | nil,

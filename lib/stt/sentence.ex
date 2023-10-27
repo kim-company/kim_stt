@@ -4,8 +4,8 @@ defmodule STT.Sentence do
 
   @type t :: %__MODULE__{
           words: [Record.t()],
-          from: STT.Time.t(),
-          to: STT.Time.t(),
+          from: pos_integer(),
+          to: pos_integer(),
           speaker: String.t(),
           language_info: LanguageInfo.t()
         }
