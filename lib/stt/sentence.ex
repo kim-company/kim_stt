@@ -9,7 +9,7 @@ defmodule STT.Sentence do
           speaker: String.t(),
           language_info: LanguageInfo.t()
         }
-  defstruct [:words, :from, :to, :speaker, :language_info]
+  defstruct [:words, :from, :to, :speaker, language_info: %LanguageInfo{}]
 
   defimpl String.Chars do
     def to_string(sentence) do
