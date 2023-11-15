@@ -26,11 +26,18 @@ defmodule STT.Sentence.Builder do
   Adds records to the builder. If this records completes a sentence, it will return the sentence
   """
   @spec add_records(t(), Record.t() | [Record.t()]) :: {[Sentence.t()], t()}
-  def add_records(%__MODULE__{} = builder, records) do
+  def add_records(%__MODULE__{} = builder, records, flush \\ false) do
     records = builder.records ++ List.wrap(records)
     {finals, partial} = split_records(records, builder.silence_split_threshold)
+    sentences = build_sentence(finals, builder.language_info)
+    builder = %__MODULE__{builder | records: partial}
 
-    {build_sentence(finals, builder.language_info), %__MODULE__{builder | records: partial}}
+    if flush do
+      {sentences, builder}
+    else
+      {rest, builder} = flush(builder)
+      {sentences ++ rest, builder}
+    end
   end
 
   @doc """
