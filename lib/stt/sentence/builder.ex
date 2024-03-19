@@ -32,7 +32,7 @@ defmodule STT.Sentence.Builder do
     sentences = build_sentence(finals, builder.language_info)
     builder = %__MODULE__{builder | records: partial}
 
-    if flush do
+    if not flush do
       {sentences, builder}
     else
       {rest, builder} = flush(builder)
