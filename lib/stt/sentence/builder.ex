@@ -19,7 +19,7 @@ defmodule STT.Sentence.Builder do
     language_info: %LanguageInfo{}
   ]
 
-  @match_punctuation_splitter ~r/[!?\.]$/
+  @match_punctuation_splitter ~r/\w\w\w+[!?\.]$/
   @match_number ~r/\d/
 
   @doc """
