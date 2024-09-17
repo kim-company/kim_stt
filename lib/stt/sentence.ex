@@ -4,9 +4,11 @@ defmodule STT.Sentence do
 
   @type t :: %__MODULE__{
           words: [Record.t()],
+          is_partial: boolean(),
+          speaker: nil | String.t(),
           language_info: LanguageInfo.t()
         }
-  defstruct [:words, language_info: %LanguageInfo{}]
+  defstruct [:words, is_partial: true, speaker: nil, language_info: %LanguageInfo{}]
 
   def duration(%{words: words}) when length(words) > 0 do
     first = List.first(words)
@@ -18,17 +20,6 @@ defmodule STT.Sentence do
     words
     |> List.first()
     |> Map.get(:from)
-  end
-
-  def is_partial(%{words: words}) do
-    words
-    |> Enum.all?(fn x -> x.is_partial end)
-  end
-
-  def speakers(%{words: words}) do
-    words
-    |> Enum.map(fn x -> Map.get(x, :speaker) end)
-    |> Enum.uniq()
   end
 
   defimpl String.Chars do
