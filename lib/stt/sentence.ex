@@ -14,6 +14,12 @@ defmodule STT.Sentence do
     last.to - first.from
   end
 
+  def from(%{words: words}) do
+    words
+    |> List.first()
+    |> Map.get(:from)
+  end
+
   def speakers(%{works: words}) do
     words
     |> Enum.map(fn x -> Map.get(x, :speaker) end)
