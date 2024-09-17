@@ -3,41 +3,46 @@ defmodule STT.Sentence.Builder do
   alias STT.Sentence.LanguageInfo
   alias STT.Record
 
+  @type sbd_mode :: :eos | :punctuation
+
   @type t :: %__MODULE__{
-          speaker: String.t() | :unidentified | nil,
-          records: [Record.t()],
-          language_info: LanguageInfo.t(),
-          silence_split_threshold: number
+          pending: [Record.t()],
+          mode: sbd_mode(),
+          language_info: LanguageInfo.t()
         }
 
   @type word :: {:word | :punctuation, String.t()}
 
-  defstruct [
-    :speaker,
-    :silence_split_threshold,
-    records: [],
-    language_info: %LanguageInfo{}
-  ]
-
-  @match_punctuation_splitter ~r/\w\w\w+[!?\.]$/
-  @match_number ~r/\d/
+  defstruct pending: [],
+            # Splitting mode. If the records contain eos information, it should
+            # be the preferred one. Otherwise use :puntuation.
+            mode: :eos,
+            # Information about the language, used to build sentences. Provides
+            # for example the word separator, which in most of the cases is " ".
+            language_info: %LanguageInfo{}
 
   @doc """
   Adds records to the builder. If this records completes a sentence, it will return the sentence
   """
-  @spec add_records(t(), Record.t() | [Record.t()]) :: {[Sentence.t()], t()}
-  def add_records(%__MODULE__{} = builder, records, flush \\ false) do
-    records = builder.records ++ List.wrap(records)
-    {finals, partial} = split_records(records, builder.silence_split_threshold)
-    sentences = build_sentence(finals, builder.language_info)
-    builder = %__MODULE__{builder | records: partial}
+  @spec put_and_get(Record.t() | [Record.t()], t(), boolean()) :: {[Sentence.t()], t()}
+  def put_and_get(records, builder, flush \\ false) do
+    records = builder.pending ++ List.wrap(records)
+    records = fix_leading_punctuation(records)
 
-    if not flush do
-      {sentences, builder}
-    else
+    {finals, partial} = split(records, builder.mode)
+    sentences = build_sentences(finals, builder.language_info)
+    builder = %__MODULE__{builder | pending: partial}
+
+    if flush do
       {rest, builder} = flush(builder)
       {sentences ++ rest, builder}
+    else
+      {sentences, builder}
     end
+  end
+
+  def pending_sentence(builder) do
+    %STT.Sentence{words: builder.pending, language_info: builder.language_info}
   end
 
   @doc """
@@ -49,96 +54,116 @@ defmodule STT.Sentence.Builder do
   end
 
   @doc """
-  Flushes the collected words into sentences. Can return partial sentences.
+  Empties the builder returning all of its sentences. Last sentence might be a
+  partial one.
   """
   @spec flush(t()) :: {[Sentence.t()], t()}
   def flush(builder) do
-    {finals, partial} = split_records(builder.records, builder.silence_split_threshold)
+    {finals, partial} = split(builder.pending, builder.mode)
 
-    {build_sentence(finals ++ [partial], builder.language_info),
-     %__MODULE__{builder | records: []}}
+    {build_sentences(finals ++ [partial], builder.language_info),
+     %__MODULE__{builder | pending: []}}
   end
 
   @doc """
   Checks if there are any pending records within the builder
   """
-  def empty?(builder), do: Enum.empty?(builder.records)
+  def empty?(builder), do: Enum.empty?(builder.pending)
 
-  defp build_sentence(chunks, language_info) do
+  defp build_sentences(chunks, language_info) do
     chunks
     |> Enum.reject(&Enum.empty?/1)
     |> Enum.map(fn words ->
-      first = Enum.at(words, 0)
-
       %Sentence{
         words: words,
-        language_info: language_info,
-        speaker: first.speaker,
-        from: first.from,
-        to: Enum.at(words, -1).to
+        language_info: language_info
       }
     end)
   end
 
-  defp split_records(records, silence_split_threshold) do
-    # We use a different splittig strategy depending on the information
-    # the records contain.
-    with_eos? = Enum.any?(records, & &1.is_eos)
-    chunk_function = &chunk_sentences(&1, &2, with_eos?, silence_split_threshold)
+  defp record_splitting_score(%{type: "punctuation", text: text})
+       when text in [".", "!", "?", ";"],
+       do: 9
 
+  defp record_splitting_score(%{type: "punctuation"}), do: 2
+  # defp record_splitting_score(%{type: "silence"}), do: 1
+  defp record_splitting_score(_), do: 0
+
+  defp split_chunked(records, splitter_fun) do
     {ready, [doing]} =
       records
-      |> Enum.chunk_while([], chunk_function, fn acc -> {:cont, acc, []} end)
+      |> Enum.chunk_while(
+        [],
+        fn x, acc ->
+          if splitter_fun.(x) do
+            {:cont, [x | acc], []}
+          else
+            {:cont, [x | acc]}
+          end
+        end,
+        fn acc ->
+          # Emit also the last part as a chunk.
+          {:cont, acc, []}
+        end
+      )
+      |> Enum.map(&Enum.reverse/1)
       |> Enum.split(-1)
 
-    ready = Enum.map(ready, &Enum.reverse/1)
-    doing = Enum.reverse(doing)
-    last = List.last(doing)
+    {ready, doing}
+  end
 
-    # Make sure that the last partial is not a pretty-ending one; if so,
-    # make it a final.
-    if last != nil and is_punctuation_splitter?(last.text) do
-      {ready ++ [doing], []}
-    else
-      {ready, doing}
+  defp split(records, _) when length(records) <= 1 do
+    {[], records}
+  end
+
+  defp split(records, :eos) do
+    split_chunked(records, fn x -> x.is_eos and x.text != "" end)
+  end
+
+  defp split(records, :punctuation) do
+    records_with_score = Enum.map(records, fn x -> {x, record_splitting_score(x)} end)
+
+    # We're only splitting the words based on the maximum splitting
+    # score available.
+    max_score =
+      records_with_score
+      |> Enum.map(fn {_, score} -> score end)
+      |> Enum.max()
+
+    cond do
+      max_score == 0 ->
+        {[], records}
+
+      max_score < 5 ->
+        # In this case, we want to split as little as possible otherwise
+        # we'll end up splitting any comma.
+        splitter =
+          records_with_score
+          |> Enum.reverse()
+          |> Enum.find_index(fn {_, score} -> score == max_score end)
+
+        take = length(records) - splitter
+
+        {head, tail} = Enum.split(records, take)
+        {[head], tail}
+
+      true ->
+        {ready_chunks, rest} =
+          records_with_score
+          |> split_chunked(fn {_, score} -> score == max_score end)
+
+        ready =
+          ready_chunks
+          |> Enum.map(&Enum.map(&1, fn {x, _} -> x end))
+
+        rest = Enum.map(rest, fn {x, _} -> x end)
+        {ready, rest}
     end
   end
 
-  defp chunk_sentences(record, acc, with_eos?, silence_split_threshold) do
-    # Check if there is a split before the current record
-    if should_split_head?([record | acc], with_eos?, silence_split_threshold),
-      # We have encountered a split. Emit current chunk
-      do: {:cont, acc, [record]},
+  defp fix_leading_punctuation([h1 | [h2 | tail]]) when h1.type == "punctuation",
+    do: [%{h2 | from: h1.from} | tail]
 
-      # No split. add to list
-      else: {:cont, [record | acc]}
-  end
-
-  defp should_split_head?(records, with_eos, max_silence) do
-    should_split_head_by_silence?(records, max_silence) or
-      should_split_head_by_punctuation?(records, with_eos)
-  end
-
-  defp should_split_head_by_silence?([next, prev | _rest], max_silence) do
-    next.from - prev.to > max_silence
-  end
-
-  defp should_split_head_by_silence?(_, _), do: false
-
-  defp should_split_head_by_punctuation?([_next, prev | _], true) do
-    prev.is_eos
-  end
-
-  defp should_split_head_by_punctuation?(_, true), do: false
-
-  defp should_split_head_by_punctuation?([_next, next, prev | _], false) do
-    next.type == "punctuation" and is_punctuation_splitter?(next.text) and
-      not is_number?(prev.text)
-  end
-
-  defp should_split_head_by_punctuation?(_, false), do: false
-
-  defp is_number?(text), do: Regex.match?(@match_number, text)
-
-  defp is_punctuation_splitter?(text), do: Regex.match?(@match_punctuation_splitter, text)
+  defp fix_leading_punctuation([h1]) when h1.type == "punctuation", do: []
+  defp fix_leading_punctuation(records), do: records
 end

@@ -35,10 +35,19 @@ defprotocol STT.Transcriber do
         }
 
   @type transcript_payload :: %{
+          # String representation of the spoken text.
           transcript: String.t(),
+          # Unique ID of the sentence.
           id: String.t(),
+          # Session identifier.
+          session_id: String.t(),
+          # Wether is is a partial or final record.
           is_partial: Boolean.t(),
-          records: [record()]
+          # The records of the spoken text.
+          records: [record()],
+          # Timing information of the transcript frame.
+          from: pos_integer(),
+          to: pos_integer()
         }
 
   @typedoc """
@@ -53,4 +62,7 @@ defprotocol STT.Transcriber do
 
   @spec send_audio(t(), conn(), Membrane.Buffer.t()) :: :ok
   def send_audio(transcriber, conn, buffer)
+
+  @spec sentence_boundary_detection_mode(t()) :: STT.Sentence.Builder.sbd_mode()
+  def sentence_boundary_detection_mode(transcriber)
 end

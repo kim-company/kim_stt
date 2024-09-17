@@ -1,0 +1,5501 @@
+[
+  {
+    "id": "InDVynZP",
+    "transcript": "",
+    "is_partial": true,
+    "to": 30000000,
+    "from": 0,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 30000000,
+        "from": 0,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "InDVynZP",
+    "transcript": "",
+    "is_partial": true,
+    "to": 390000000,
+    "from": 0,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 390000000,
+        "from": 0,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "InDVynZP",
+    "transcript": "",
+    "is_partial": true,
+    "to": 750000000,
+    "from": 0,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 750000000,
+        "from": 0,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "InDVynZP",
+    "transcript": "To do",
+    "is_partial": true,
+    "to": 1010000000,
+    "from": 0,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 680000000,
+        "from": 0,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "To",
+        "is_partial": true,
+        "to": 770000000,
+        "from": 680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "do",
+        "is_partial": true,
+        "to": 950000000,
+        "from": 770000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 1010000000,
+        "from": 950000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "InDVynZP",
+    "transcript": "To do that you",
+    "is_partial": true,
+    "to": 1370000000,
+    "from": 0,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 680000000,
+        "from": 0,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "To",
+        "is_partial": true,
+        "to": 770000000,
+        "from": 680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "do",
+        "is_partial": true,
+        "to": 950000000,
+        "from": 770000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "that",
+        "is_partial": true,
+        "to": 1160000000,
+        "from": 950000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "you",
+        "is_partial": true,
+        "to": 1280000000,
+        "from": 1160000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 1370000000,
+        "from": 1280000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "InDVynZP",
+    "transcript": "To do that you know to get",
+    "is_partial": true,
+    "to": 1730000000,
+    "from": 0,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 680000000,
+        "from": 0,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "To",
+        "is_partial": true,
+        "to": 770000000,
+        "from": 680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "do",
+        "is_partial": true,
+        "to": 950000000,
+        "from": 770000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "that",
+        "is_partial": true,
+        "to": 1160000000,
+        "from": 950000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "you",
+        "is_partial": true,
+        "to": 1280000000,
+        "from": 1160000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "know",
+        "is_partial": true,
+        "to": 1460000000,
+        "from": 1280000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "to",
+        "is_partial": true,
+        "to": 1550000000,
+        "from": 1460000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "get",
+        "is_partial": true,
+        "to": 1730000000,
+        "from": 1550000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "InDVynZP",
+    "transcript": "To do that you know to get my attention",
+    "is_partial": true,
+    "to": 2089999999,
+    "from": 0,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 680000000,
+        "from": 0,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "To",
+        "is_partial": true,
+        "to": 770000000,
+        "from": 680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "do",
+        "is_partial": true,
+        "to": 950000000,
+        "from": 770000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "that",
+        "is_partial": true,
+        "to": 1160000000,
+        "from": 950000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "you",
+        "is_partial": true,
+        "to": 1280000000,
+        "from": 1160000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "know",
+        "is_partial": true,
+        "to": 1460000000,
+        "from": 1280000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "to",
+        "is_partial": true,
+        "to": 1550000000,
+        "from": 1460000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "get",
+        "is_partial": true,
+        "to": 1730000000,
+        "from": 1550000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "my",
+        "is_partial": true,
+        "to": 1880000000,
+        "from": 1730000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "attention",
+        "is_partial": true,
+        "to": 2089999999,
+        "from": 1880000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "InDVynZP",
+    "transcript": "To do that you know to get my attention",
+    "is_partial": true,
+    "to": 2450000000,
+    "from": 0,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 680000000,
+        "from": 0,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "To",
+        "is_partial": true,
+        "to": 770000000,
+        "from": 680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "do",
+        "is_partial": true,
+        "to": 950000000,
+        "from": 770000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "that",
+        "is_partial": true,
+        "to": 1160000000,
+        "from": 950000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "you",
+        "is_partial": true,
+        "to": 1280000000,
+        "from": 1160000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "know",
+        "is_partial": true,
+        "to": 1460000000,
+        "from": 1280000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "to",
+        "is_partial": true,
+        "to": 1550000000,
+        "from": 1460000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "get",
+        "is_partial": true,
+        "to": 1730000000,
+        "from": 1550000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "my",
+        "is_partial": true,
+        "to": 1880000000,
+        "from": 1730000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "attention",
+        "is_partial": true,
+        "to": 2450000000,
+        "from": 1880000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "InDVynZP",
+    "transcript": "To do that you know to get my attention.",
+    "is_partial": true,
+    "to": 2810000000,
+    "from": 0,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 680000000,
+        "from": 0,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "To",
+        "is_partial": true,
+        "to": 770000000,
+        "from": 680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "do",
+        "is_partial": true,
+        "to": 950000000,
+        "from": 770000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "that",
+        "is_partial": true,
+        "to": 1160000000,
+        "from": 950000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "you",
+        "is_partial": true,
+        "to": 1280000000,
+        "from": 1160000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "know",
+        "is_partial": true,
+        "to": 1460000000,
+        "from": 1280000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "to",
+        "is_partial": true,
+        "to": 1550000000,
+        "from": 1460000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "get",
+        "is_partial": true,
+        "to": 1730000000,
+        "from": 1550000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "my",
+        "is_partial": true,
+        "to": 1880000000,
+        "from": 1730000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "attention",
+        "is_partial": true,
+        "to": 2750000000,
+        "from": 1880000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 2810000000,
+        "from": 2810000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "InDVynZP",
+    "transcript": "To do that you know to get my attention.",
+    "is_partial": true,
+    "to": 3170000000,
+    "from": 0,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 680000000,
+        "from": 0,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "To",
+        "is_partial": true,
+        "to": 770000000,
+        "from": 680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "do",
+        "is_partial": true,
+        "to": 950000000,
+        "from": 770000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "that",
+        "is_partial": true,
+        "to": 1160000000,
+        "from": 950000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "you",
+        "is_partial": true,
+        "to": 1280000000,
+        "from": 1160000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "know",
+        "is_partial": true,
+        "to": 1460000000,
+        "from": 1280000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "to",
+        "is_partial": true,
+        "to": 1550000000,
+        "from": 1460000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "get",
+        "is_partial": true,
+        "to": 1730000000,
+        "from": 1550000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "my",
+        "is_partial": true,
+        "to": 1880000000,
+        "from": 1730000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "attention",
+        "is_partial": true,
+        "to": 2750000000,
+        "from": 1880000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 3170000000,
+        "from": 3170000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "InDVynZP",
+    "transcript": "We have to do that, you know, to get my attention ",
+    "is_partial": false,
+    "to": 2750000000,
+    "from": 0,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": false,
+        "to": 440000000,
+        "from": 0,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "We",
+        "is_partial": false,
+        "to": 560000000,
+        "from": 440000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "have",
+        "is_partial": false,
+        "to": 680000000,
+        "from": 560000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "to",
+        "is_partial": false,
+        "to": 770000000,
+        "from": 680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "do",
+        "is_partial": false,
+        "to": 950000000,
+        "from": 770000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "that",
+        "is_partial": false,
+        "to": 1160000000,
+        "from": 950000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ",",
+        "is_partial": false,
+        "to": 1160000000,
+        "from": 1160000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "you",
+        "is_partial": false,
+        "to": 1280000000,
+        "from": 1160000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "know",
+        "is_partial": false,
+        "to": 1460000000,
+        "from": 1280000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ",",
+        "is_partial": false,
+        "to": 1460000000,
+        "from": 1460000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "to",
+        "is_partial": false,
+        "to": 1550000000,
+        "from": 1460000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "get",
+        "is_partial": false,
+        "to": 1730000000,
+        "from": 1550000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "my",
+        "is_partial": false,
+        "to": 1880000000,
+        "from": 1730000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "attention",
+        "is_partial": false,
+        "to": 2750000000,
+        "from": 1880000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "rq1zfeNy",
+    "transcript": "",
+    "is_partial": true,
+    "to": 3990000000,
+    "from": 2850000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 3990000000,
+        "from": 2850000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "rq1zfeNy",
+    "transcript": "",
+    "is_partial": true,
+    "to": 4350000000,
+    "from": 2850000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 4350000000,
+        "from": 2850000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "rq1zfeNy",
+    "transcript": "",
+    "is_partial": true,
+    "to": 4710000000,
+    "from": 2850000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 4710000000,
+        "from": 2850000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "rq1zfeNy",
+    "transcript": "",
+    "is_partial": false,
+    "to": 4560000000,
+    "from": 2850000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": false,
+        "to": 4560000000,
+        "from": 2850000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "smXBsEVl",
+    "transcript": ".",
+    "is_partial": true,
+    "to": 4970000000,
+    "from": 4460000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 4970000000,
+        "from": 4460000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 4970000000,
+        "from": 4970000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "smXBsEVl",
+    "transcript": ".",
+    "is_partial": true,
+    "to": 5330000000,
+    "from": 4460000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 5330000000,
+        "from": 4460000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 5330000000,
+        "from": 5330000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "smXBsEVl",
+    "transcript": ".",
+    "is_partial": true,
+    "to": 5690000000,
+    "from": 4460000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 5690000000,
+        "from": 4460000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 5690000000,
+        "from": 5690000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "smXBsEVl",
+    "transcript": ".",
+    "is_partial": true,
+    "to": 6050000000,
+    "from": 4460000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 6050000000,
+        "from": 4460000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 6050000000,
+        "from": 6050000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "smXBsEVl",
+    "transcript": ". I",
+    "is_partial": true,
+    "to": 6410000000,
+    "from": 4460000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 4460000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 5930000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 6380000000,
+        "from": 5930000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 6410000000,
+        "from": 6380000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "smXBsEVl",
+    "transcript": ". I am so",
+    "is_partial": true,
+    "to": 6770000000,
+    "from": 4460000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 4460000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 5930000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 6350000000,
+        "from": 5930000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "am",
+        "is_partial": true,
+        "to": 6530000000,
+        "from": 6380000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "so",
+        "is_partial": true,
+        "to": 6770000000,
+        "from": 6530000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "smXBsEVl",
+    "transcript": ". I am so sorry",
+    "is_partial": true,
+    "to": 7130000000,
+    "from": 4460000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 4460000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 5930000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 6350000000,
+        "from": 5930000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "am",
+        "is_partial": true,
+        "to": 6530000000,
+        "from": 6380000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "so",
+        "is_partial": true,
+        "to": 6800000000,
+        "from": 6530000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "sorry",
+        "is_partial": true,
+        "to": 7130000000,
+        "from": 6800000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "smXBsEVl",
+    "transcript": ". I am so sorry. Mr.",
+    "is_partial": true,
+    "to": 7490000000,
+    "from": 4460000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 4460000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 5930000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 6350000000,
+        "from": 5930000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "am",
+        "is_partial": true,
+        "to": 6530000000,
+        "from": 6380000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "so",
+        "is_partial": true,
+        "to": 6800000000,
+        "from": 6530000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "sorry",
+        "is_partial": true,
+        "to": 7160000000,
+        "from": 6800000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 7190000000,
+        "from": 7190000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "Mr.",
+        "is_partial": true,
+        "to": 7490000000,
+        "from": 7190000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "smXBsEVl",
+    "transcript": ". I am so sorry mr. conrad",
+    "is_partial": true,
+    "to": 7850000000,
+    "from": 4460000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 4460000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 5930000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 6350000000,
+        "from": 5930000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "am",
+        "is_partial": true,
+        "to": 6530000000,
+        "from": 6380000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "so",
+        "is_partial": true,
+        "to": 6800000000,
+        "from": 6530000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "sorry",
+        "is_partial": true,
+        "to": 7160000000,
+        "from": 6800000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "mr.",
+        "is_partial": true,
+        "to": 7490000000,
+        "from": 7190000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "conrad",
+        "is_partial": true,
+        "to": 7850000000,
+        "from": 7490000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "smXBsEVl",
+    "transcript": ". I am so sorry mr. conrad i",
+    "is_partial": true,
+    "to": 8210000000,
+    "from": 4460000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 4460000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 5930000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 6350000000,
+        "from": 5930000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "am",
+        "is_partial": true,
+        "to": 6530000000,
+        "from": 6380000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "so",
+        "is_partial": true,
+        "to": 6800000000,
+        "from": 6530000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "sorry",
+        "is_partial": true,
+        "to": 7160000000,
+        "from": 6800000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "mr.",
+        "is_partial": true,
+        "to": 7490000000,
+        "from": 7190000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "conrad",
+        "is_partial": true,
+        "to": 7940000000,
+        "from": 7490000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "i",
+        "is_partial": true,
+        "to": 8210000000,
+        "from": 7970000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "smXBsEVl",
+    "transcript": ". I am so sorry mr. conrad. What's your name",
+    "is_partial": true,
+    "to": 8570000000,
+    "from": 4460000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 4460000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 5930000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 6350000000,
+        "from": 5930000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "am",
+        "is_partial": true,
+        "to": 6530000000,
+        "from": 6380000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "so",
+        "is_partial": true,
+        "to": 6800000000,
+        "from": 6530000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "sorry",
+        "is_partial": true,
+        "to": 7160000000,
+        "from": 6800000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "mr.",
+        "is_partial": true,
+        "to": 7490000000,
+        "from": 7190000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "conrad",
+        "is_partial": true,
+        "to": 7940000000,
+        "from": 7490000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 8119999999,
+        "from": 8119999999,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "What's",
+        "is_partial": true,
+        "to": 8240000000,
+        "from": 8119999999,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "your",
+        "is_partial": true,
+        "to": 8359999999,
+        "from": 8240000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "name",
+        "is_partial": true,
+        "to": 8570000000,
+        "from": 8359999999,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "smXBsEVl",
+    "transcript": ". I am so sorry mr. conrad. What's your name.",
+    "is_partial": true,
+    "to": 8930000000,
+    "from": 4460000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 4460000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 5930000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 6350000000,
+        "from": 5930000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "am",
+        "is_partial": true,
+        "to": 6530000000,
+        "from": 6380000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "so",
+        "is_partial": true,
+        "to": 6800000000,
+        "from": 6530000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "sorry",
+        "is_partial": true,
+        "to": 7160000000,
+        "from": 6800000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "mr.",
+        "is_partial": true,
+        "to": 7490000000,
+        "from": 7190000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "conrad",
+        "is_partial": true,
+        "to": 7940000000,
+        "from": 7490000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 8119999999,
+        "from": 8119999999,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "What's",
+        "is_partial": true,
+        "to": 8240000000,
+        "from": 8119999999,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "your",
+        "is_partial": true,
+        "to": 8359999999,
+        "from": 8240000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "name",
+        "is_partial": true,
+        "to": 8810000000,
+        "from": 8359999999,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 8930000000,
+        "from": 8930000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "smXBsEVl",
+    "transcript": ". I am so sorry mr. conrad. What's your name.",
+    "is_partial": true,
+    "to": 9290000000,
+    "from": 4460000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 4460000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 5930000000,
+        "from": 5930000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 6350000000,
+        "from": 5930000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "am",
+        "is_partial": true,
+        "to": 6530000000,
+        "from": 6380000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "so",
+        "is_partial": true,
+        "to": 6800000000,
+        "from": 6530000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "sorry",
+        "is_partial": true,
+        "to": 7160000000,
+        "from": 6800000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "mr.",
+        "is_partial": true,
+        "to": 7490000000,
+        "from": 7190000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "conrad",
+        "is_partial": true,
+        "to": 7940000000,
+        "from": 7490000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 8119999999,
+        "from": 8119999999,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "What's",
+        "is_partial": true,
+        "to": 8240000000,
+        "from": 8119999999,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "your",
+        "is_partial": true,
+        "to": 8359999999,
+        "from": 8240000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "name",
+        "is_partial": true,
+        "to": 8810000000,
+        "from": 8359999999,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 9290000000,
+        "from": 9290000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "smXBsEVl",
+    "transcript": ". I am so sorry, Mr. Conrad. What's your name ",
+    "is_partial": false,
+    "to": 8810000000,
+    "from": 4460000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": false,
+        "to": 4460000000,
+        "from": 4460000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": false,
+        "to": 6350000000,
+        "from": 5930000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "am",
+        "is_partial": false,
+        "to": 6530000000,
+        "from": 6380000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "so",
+        "is_partial": false,
+        "to": 6800000000,
+        "from": 6530000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "sorry",
+        "is_partial": false,
+        "to": 7160000000,
+        "from": 6800000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ",",
+        "is_partial": false,
+        "to": 7160000000,
+        "from": 7160000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "Mr.",
+        "is_partial": false,
+        "to": 7490000000,
+        "from": 7190000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "Conrad",
+        "is_partial": false,
+        "to": 7940000000,
+        "from": 7490000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": false,
+        "to": 7940000000,
+        "from": 7940000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "What's",
+        "is_partial": false,
+        "to": 8240000000,
+        "from": 8119999999,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "your",
+        "is_partial": false,
+        "to": 8359999999,
+        "from": 8240000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "name",
+        "is_partial": false,
+        "to": 8810000000,
+        "from": 8359999999,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "JwG3Jm9Z",
+    "transcript": "",
+    "is_partial": true,
+    "to": 10110000000,
+    "from": 8910000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 10110000000,
+        "from": 8910000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "JwG3Jm9Z",
+    "transcript": "jan",
+    "is_partial": true,
+    "to": 10370000000,
+    "from": 8810000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 9680000000,
+        "from": 8810000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "jan",
+        "is_partial": true,
+        "to": 10280000000,
+        "from": 9680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 10370000000,
+        "from": 10280000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "JwG3Jm9Z",
+    "transcript": "jan",
+    "is_partial": true,
+    "to": 10730000000,
+    "from": 8810000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 9680000000,
+        "from": 8810000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "jan",
+        "is_partial": true,
+        "to": 10280000000,
+        "from": 9680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 10730000000,
+        "from": 10280000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "JwG3Jm9Z",
+    "transcript": "jan",
+    "is_partial": true,
+    "to": 11090000000,
+    "from": 8810000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 9680000000,
+        "from": 8810000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "jan",
+        "is_partial": true,
+        "to": 10280000000,
+        "from": 9680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 11090000000,
+        "from": 10280000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "JwG3Jm9Z",
+    "transcript": "jen. I",
+    "is_partial": true,
+    "to": 11450000000,
+    "from": 8810000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 9680000000,
+        "from": 8810000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "jen",
+        "is_partial": true,
+        "to": 10280000000,
+        "from": 9680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 11150000000,
+        "from": 11150000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 11450000000,
+        "from": 11150000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "JwG3Jm9Z",
+    "transcript": "jen. I just",
+    "is_partial": true,
+    "to": 11810000000,
+    "from": 8810000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 9680000000,
+        "from": 8810000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "jen",
+        "is_partial": true,
+        "to": 10280000000,
+        "from": 9680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 11150000000,
+        "from": 11150000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 11570000000,
+        "from": 11150000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "just",
+        "is_partial": true,
+        "to": 11810000000,
+        "from": 11570000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "JwG3Jm9Z",
+    "transcript": "jen. I just wanted you",
+    "is_partial": true,
+    "to": 12170000000,
+    "from": 8810000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 9680000000,
+        "from": 8810000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "jen",
+        "is_partial": true,
+        "to": 10280000000,
+        "from": 9680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 11150000000,
+        "from": 11150000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 11570000000,
+        "from": 11150000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "just",
+        "is_partial": true,
+        "to": 11810000000,
+        "from": 11570000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "wanted",
+        "is_partial": true,
+        "to": 12110000000,
+        "from": 11810000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "you",
+        "is_partial": true,
+        "to": 12170000000,
+        "from": 12110000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "JwG3Jm9Z",
+    "transcript": "jen. I just wanted you to look",
+    "is_partial": true,
+    "to": 12530000000,
+    "from": 8810000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 9680000000,
+        "from": 8810000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "jen",
+        "is_partial": true,
+        "to": 10280000000,
+        "from": 9680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 11150000000,
+        "from": 11150000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 11570000000,
+        "from": 11150000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "just",
+        "is_partial": true,
+        "to": 11810000000,
+        "from": 11570000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "wanted",
+        "is_partial": true,
+        "to": 12110000000,
+        "from": 11810000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "you",
+        "is_partial": true,
+        "to": 12230000000,
+        "from": 12110000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "to",
+        "is_partial": true,
+        "to": 12320000000,
+        "from": 12230000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "look",
+        "is_partial": true,
+        "to": 12530000000,
+        "from": 12350000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "JwG3Jm9Z",
+    "transcript": "jen. I just wanted you to look my way",
+    "is_partial": true,
+    "to": 12890000000,
+    "from": 8810000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 9680000000,
+        "from": 8810000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "jen",
+        "is_partial": true,
+        "to": 10280000000,
+        "from": 9680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 11150000000,
+        "from": 11150000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 11570000000,
+        "from": 11150000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "just",
+        "is_partial": true,
+        "to": 11810000000,
+        "from": 11570000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "wanted",
+        "is_partial": true,
+        "to": 12110000000,
+        "from": 11810000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "you",
+        "is_partial": true,
+        "to": 12230000000,
+        "from": 12110000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "to",
+        "is_partial": true,
+        "to": 12320000000,
+        "from": 12230000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "look",
+        "is_partial": true,
+        "to": 12560000000,
+        "from": 12350000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "my",
+        "is_partial": true,
+        "to": 12740000000,
+        "from": 12590000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "way",
+        "is_partial": true,
+        "to": 12890000000,
+        "from": 12740000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "JwG3Jm9Z",
+    "transcript": "jen. I just wanted you to look my way",
+    "is_partial": true,
+    "to": 13250000000,
+    "from": 8810000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 9680000000,
+        "from": 8810000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "jen",
+        "is_partial": true,
+        "to": 10280000000,
+        "from": 9680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 11150000000,
+        "from": 11150000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 11570000000,
+        "from": 11150000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "just",
+        "is_partial": true,
+        "to": 11810000000,
+        "from": 11570000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "wanted",
+        "is_partial": true,
+        "to": 12110000000,
+        "from": 11810000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "you",
+        "is_partial": true,
+        "to": 12230000000,
+        "from": 12110000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "to",
+        "is_partial": true,
+        "to": 12320000000,
+        "from": 12230000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "look",
+        "is_partial": true,
+        "to": 12560000000,
+        "from": 12350000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "my",
+        "is_partial": true,
+        "to": 12740000000,
+        "from": 12590000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "way",
+        "is_partial": true,
+        "to": 13250000000,
+        "from": 12740000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "JwG3Jm9Z",
+    "transcript": "jen. I just wanted you to look my way",
+    "is_partial": true,
+    "to": 13610000000,
+    "from": 8810000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 9680000000,
+        "from": 8810000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "jen",
+        "is_partial": true,
+        "to": 10280000000,
+        "from": 9680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 11150000000,
+        "from": 11150000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": true,
+        "to": 11570000000,
+        "from": 11150000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "just",
+        "is_partial": true,
+        "to": 11810000000,
+        "from": 11570000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "wanted",
+        "is_partial": true,
+        "to": 12110000000,
+        "from": 11810000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "you",
+        "is_partial": true,
+        "to": 12230000000,
+        "from": 12110000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "to",
+        "is_partial": true,
+        "to": 12320000000,
+        "from": 12230000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "look",
+        "is_partial": true,
+        "to": 12560000000,
+        "from": 12350000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "my",
+        "is_partial": true,
+        "to": 12740000000,
+        "from": 12590000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "way",
+        "is_partial": true,
+        "to": 13310000000,
+        "from": 12740000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 13610000000,
+        "from": 13310000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "JwG3Jm9Z",
+    "transcript": "? Jen. I just wanted you to look my way ",
+    "is_partial": false,
+    "to": 13310000000,
+    "from": 8810000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "punctuation",
+        "text": "?",
+        "is_partial": false,
+        "to": 8810000000,
+        "from": 8810000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "Jen",
+        "is_partial": false,
+        "to": 10280000000,
+        "from": 9680000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": false,
+        "to": 10280000000,
+        "from": 10280000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": false,
+        "to": 11570000000,
+        "from": 11150000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "just",
+        "is_partial": false,
+        "to": 11810000000,
+        "from": 11570000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "wanted",
+        "is_partial": false,
+        "to": 12110000000,
+        "from": 11810000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "you",
+        "is_partial": false,
+        "to": 12230000000,
+        "from": 12110000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "to",
+        "is_partial": false,
+        "to": 12320000000,
+        "from": 12230000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "look",
+        "is_partial": false,
+        "to": 12560000000,
+        "from": 12350000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "my",
+        "is_partial": false,
+        "to": 12740000000,
+        "from": 12590000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "way",
+        "is_partial": false,
+        "to": 13310000000,
+        "from": 12740000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "o8KI4GaA",
+    "transcript": "",
+    "is_partial": true,
+    "to": 14430000000,
+    "from": 13410000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 14430000000,
+        "from": 13410000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "o8KI4GaA",
+    "transcript": "",
+    "is_partial": true,
+    "to": 14790000000,
+    "from": 13410000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 14790000000,
+        "from": 13410000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "o8KI4GaA",
+    "transcript": "",
+    "is_partial": true,
+    "to": 15150000000,
+    "from": 13410000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 15150000000,
+        "from": 13410000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "o8KI4GaA",
+    "transcript": ".",
+    "is_partial": true,
+    "to": 15410000000,
+    "from": 13310000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 15410000000,
+        "from": 13310000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 15410000000,
+        "from": 15410000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "o8KI4GaA",
+    "transcript": "jan i'd always",
+    "is_partial": true,
+    "to": 15770000000,
+    "from": 13310000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 14990000000,
+        "from": 13310000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "jan",
+        "is_partial": true,
+        "to": 15410000000,
+        "from": 14990000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "i'd",
+        "is_partial": true,
+        "to": 15620000000,
+        "from": 15410000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "always",
+        "is_partial": true,
+        "to": 15770000000,
+        "from": 15620000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "o8KI4GaA",
+    "transcript": "jan i'd always look",
+    "is_partial": true,
+    "to": 16129999999,
+    "from": 13310000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 14990000000,
+        "from": 13310000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "jan",
+        "is_partial": true,
+        "to": 15410000000,
+        "from": 14990000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "i'd",
+        "is_partial": true,
+        "to": 15620000000,
+        "from": 15410000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "always",
+        "is_partial": true,
+        "to": 15890000000,
+        "from": 15620000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "look",
+        "is_partial": true,
+        "to": 16070000000,
+        "from": 15890000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 16129999999,
+        "from": 16070000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "o8KI4GaA",
+    "transcript": "jan i'd always look your way",
+    "is_partial": true,
+    "to": 16489999999,
+    "from": 13310000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 14990000000,
+        "from": 13310000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "jan",
+        "is_partial": true,
+        "to": 15410000000,
+        "from": 14990000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "i'd",
+        "is_partial": true,
+        "to": 15620000000,
+        "from": 15410000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "always",
+        "is_partial": true,
+        "to": 15890000000,
+        "from": 15620000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "look",
+        "is_partial": true,
+        "to": 16070000000,
+        "from": 15890000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "your",
+        "is_partial": true,
+        "to": 16250000000,
+        "from": 16100000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "way",
+        "is_partial": true,
+        "to": 16489999999,
+        "from": 16250000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "o8KI4GaA",
+    "transcript": "jan i'd always look your way",
+    "is_partial": true,
+    "to": 16850000000,
+    "from": 13310000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 14990000000,
+        "from": 13310000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "jan",
+        "is_partial": true,
+        "to": 15410000000,
+        "from": 14990000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "i'd",
+        "is_partial": true,
+        "to": 15620000000,
+        "from": 15410000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "always",
+        "is_partial": true,
+        "to": 15890000000,
+        "from": 15620000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "look",
+        "is_partial": true,
+        "to": 16070000000,
+        "from": 15890000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "your",
+        "is_partial": true,
+        "to": 16250000000,
+        "from": 16100000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "way",
+        "is_partial": true,
+        "to": 16850000000,
+        "from": 16250000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "o8KI4GaA",
+    "transcript": "jan i'd always look your way",
+    "is_partial": true,
+    "to": 17210000000,
+    "from": 13310000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 14990000000,
+        "from": 13310000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "jan",
+        "is_partial": true,
+        "to": 15410000000,
+        "from": 14990000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "i'd",
+        "is_partial": true,
+        "to": 15620000000,
+        "from": 15410000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "always",
+        "is_partial": true,
+        "to": 15890000000,
+        "from": 15620000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "look",
+        "is_partial": true,
+        "to": 16070000000,
+        "from": 15890000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "your",
+        "is_partial": true,
+        "to": 16250000000,
+        "from": 16100000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "way",
+        "is_partial": true,
+        "to": 16910000000,
+        "from": 16250000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 17210000000,
+        "from": 16910000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "o8KI4GaA",
+    "transcript": ". Jen. I'd always look your way ",
+    "is_partial": false,
+    "to": 16910000000,
+    "from": 13310000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": false,
+        "to": 14990000000,
+        "from": 13310000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": false,
+        "to": 14990000000,
+        "from": 14990000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "Jen",
+        "is_partial": false,
+        "to": 15380000000,
+        "from": 14990000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": false,
+        "to": 15380000000,
+        "from": 15380000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "I'd",
+        "is_partial": false,
+        "to": 15620000000,
+        "from": 15410000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "always",
+        "is_partial": false,
+        "to": 15890000000,
+        "from": 15620000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "look",
+        "is_partial": false,
+        "to": 16070000000,
+        "from": 15890000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "your",
+        "is_partial": false,
+        "to": 16250000000,
+        "from": 16100000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "way",
+        "is_partial": false,
+        "to": 16910000000,
+        "from": 16250000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "k21PFgaj",
+    "transcript": "",
+    "is_partial": true,
+    "to": 18030000000,
+    "from": 17010000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 18030000000,
+        "from": 17010000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "k21PFgaj",
+    "transcript": "",
+    "is_partial": true,
+    "to": 18390000000,
+    "from": 17010000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 18390000000,
+        "from": 17010000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "k21PFgaj",
+    "transcript": "",
+    "is_partial": true,
+    "to": 18750000000,
+    "from": 17010000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 18750000000,
+        "from": 17010000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "k21PFgaj",
+    "transcript": "",
+    "is_partial": false,
+    "to": 18600000000,
+    "from": 17010000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": false,
+        "to": 18600000000,
+        "from": 17010000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "vHKU527s",
+    "transcript": ".",
+    "is_partial": true,
+    "to": 19010000000,
+    "from": 18500000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 19010000000,
+        "from": 18500000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 19010000000,
+        "from": 19010000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "vHKU527s",
+    "transcript": ".",
+    "is_partial": true,
+    "to": 19370000000,
+    "from": 18500000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 19370000000,
+        "from": 18500000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 19370000000,
+        "from": 19370000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "vHKU527s",
+    "transcript": ".",
+    "is_partial": true,
+    "to": 19730000000,
+    "from": 18500000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 19730000000,
+        "from": 18500000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 19730000000,
+        "from": 19730000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "vHKU527s",
+    "transcript": ".",
+    "is_partial": true,
+    "to": 20090000000,
+    "from": 18500000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 20090000000,
+        "from": 18500000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 20090000000,
+        "from": 20090000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "vHKU527s",
+    "transcript": ".",
+    "is_partial": true,
+    "to": 20450000000,
+    "from": 18500000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 20450000000,
+        "from": 18500000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 20450000000,
+        "from": 20450000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "vHKU527s",
+    "transcript": ". Sur",
+    "is_partial": true,
+    "to": 20810000000,
+    "from": 18500000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 18500000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 20240000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "Sur",
+        "is_partial": true,
+        "to": 20810000000,
+        "from": 20240000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "vHKU527s",
+    "transcript": ". Sur",
+    "is_partial": true,
+    "to": 21170000000,
+    "from": 18500000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 18500000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 20240000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "Sur",
+        "is_partial": true,
+        "to": 21020000000,
+        "from": 20240000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 21170000000,
+        "from": 21020000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "vHKU527s",
+    "transcript": ". Sir",
+    "is_partial": true,
+    "to": 21530000000,
+    "from": 18500000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 18500000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 20240000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "Sir",
+        "is_partial": true,
+        "to": 21020000000,
+        "from": 20240000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 21530000000,
+        "from": 21020000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "vHKU527s",
+    "transcript": ". Sir george williams",
+    "is_partial": true,
+    "to": 21890000000,
+    "from": 18500000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 18500000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 20240000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "Sir",
+        "is_partial": true,
+        "to": 21020000000,
+        "from": 20240000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "george",
+        "is_partial": true,
+        "to": 21800000000,
+        "from": 21320000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "williams",
+        "is_partial": true,
+        "to": 21890000000,
+        "from": 21800000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "vHKU527s",
+    "transcript": ". Sir george won't come",
+    "is_partial": true,
+    "to": 22250000000,
+    "from": 18500000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 18500000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 20240000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "Sir",
+        "is_partial": true,
+        "to": 21020000000,
+        "from": 20240000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "george",
+        "is_partial": true,
+        "to": 21800000000,
+        "from": 21320000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "won't",
+        "is_partial": true,
+        "to": 22040000000,
+        "from": 21800000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "come",
+        "is_partial": true,
+        "to": 22250000000,
+        "from": 22040000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "vHKU527s",
+    "transcript": ". Sir george won't come out of the",
+    "is_partial": true,
+    "to": 22610000000,
+    "from": 18500000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 18500000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 20240000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "Sir",
+        "is_partial": true,
+        "to": 21020000000,
+        "from": 20240000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "george",
+        "is_partial": true,
+        "to": 21800000000,
+        "from": 21320000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "won't",
+        "is_partial": true,
+        "to": 22040000000,
+        "from": 21800000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "come",
+        "is_partial": true,
+        "to": 22220000000,
+        "from": 22040000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "out",
+        "is_partial": true,
+        "to": 22430000000,
+        "from": 22220000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "of",
+        "is_partial": true,
+        "to": 22550000000,
+        "from": 22430000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "the",
+        "is_partial": true,
+        "to": 22610000000,
+        "from": 22550000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "vHKU527s",
+    "transcript": ". Sir george won't come out of the car",
+    "is_partial": true,
+    "to": 22970000000,
+    "from": 18500000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 18500000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 20240000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "Sir",
+        "is_partial": true,
+        "to": 21020000000,
+        "from": 20240000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "george",
+        "is_partial": true,
+        "to": 21800000000,
+        "from": 21320000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "won't",
+        "is_partial": true,
+        "to": 22040000000,
+        "from": 21800000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "come",
+        "is_partial": true,
+        "to": 22220000000,
+        "from": 22040000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "out",
+        "is_partial": true,
+        "to": 22430000000,
+        "from": 22220000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "of",
+        "is_partial": true,
+        "to": 22550000000,
+        "from": 22430000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "the",
+        "is_partial": true,
+        "to": 22640000000,
+        "from": 22550000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "car",
+        "is_partial": true,
+        "to": 22970000000,
+        "from": 22640000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "vHKU527s",
+    "transcript": ". Sir george won't come out of the car. He's in",
+    "is_partial": true,
+    "to": 23330000000,
+    "from": 18500000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 18500000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 20240000000,
+        "from": 20240000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "Sir",
+        "is_partial": true,
+        "to": 21020000000,
+        "from": 20240000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "george",
+        "is_partial": true,
+        "to": 21800000000,
+        "from": 21320000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "won't",
+        "is_partial": true,
+        "to": 22040000000,
+        "from": 21800000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "come",
+        "is_partial": true,
+        "to": 22220000000,
+        "from": 22040000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "out",
+        "is_partial": true,
+        "to": 22430000000,
+        "from": 22220000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "of",
+        "is_partial": true,
+        "to": 22550000000,
+        "from": 22430000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "the",
+        "is_partial": true,
+        "to": 22640000000,
+        "from": 22550000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "car",
+        "is_partial": true,
+        "to": 22940000000,
+        "from": 22640000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 22970000000,
+        "from": 22970000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "He's",
+        "is_partial": true,
+        "to": 23270000000,
+        "from": 22970000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "in",
+        "is_partial": true,
+        "to": 23330000000,
+        "from": 23270000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "vHKU527s",
+    "transcript": ". Sir George won't come out of the car. ",
+    "is_partial": false,
+    "to": 22970000000,
+    "from": 18500000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": false,
+        "to": 18500000000,
+        "from": 18500000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "Sir",
+        "is_partial": false,
+        "to": 21020000000,
+        "from": 20240000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "George",
+        "is_partial": false,
+        "to": 21800000000,
+        "from": 21320000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "won't",
+        "is_partial": false,
+        "to": 22040000000,
+        "from": 21800000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "come",
+        "is_partial": false,
+        "to": 22220000000,
+        "from": 22040000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "out",
+        "is_partial": false,
+        "to": 22430000000,
+        "from": 22220000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "of",
+        "is_partial": false,
+        "to": 22550000000,
+        "from": 22430000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "the",
+        "is_partial": false,
+        "to": 22640000000,
+        "from": 22550000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "car",
+        "is_partial": false,
+        "to": 22940000000,
+        "from": 22640000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": false,
+        "to": 22940000000,
+        "from": 22940000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": false,
+        "to": 22970000000,
+        "from": 22940000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "ByUMVlGj",
+    "transcript": "He's insisting",
+    "is_partial": true,
+    "to": 23690000000,
+    "from": 22970000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "word",
+        "text": "He's",
+        "is_partial": true,
+        "to": 23270000000,
+        "from": 22970000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "insisting",
+        "is_partial": true,
+        "to": 23690000000,
+        "from": 23270000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "ByUMVlGj",
+    "transcript": "He's insisting i",
+    "is_partial": true,
+    "to": 24050000000,
+    "from": 22970000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "word",
+        "text": "He's",
+        "is_partial": true,
+        "to": 23270000000,
+        "from": 22970000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "insisting",
+        "is_partial": true,
+        "to": 23810000000,
+        "from": 23270000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "i",
+        "is_partial": true,
+        "to": 23960000000,
+        "from": 23810000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 24050000000,
+        "from": 23960000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "ByUMVlGj",
+    "transcript": "He's insisting i drive",
+    "is_partial": true,
+    "to": 24410000000,
+    "from": 22970000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "word",
+        "text": "He's",
+        "is_partial": true,
+        "to": 23270000000,
+        "from": 22970000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "insisting",
+        "is_partial": true,
+        "to": 23810000000,
+        "from": 23270000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "i",
+        "is_partial": true,
+        "to": 23960000000,
+        "from": 23810000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "drive",
+        "is_partial": true,
+        "to": 24290000000,
+        "from": 23960000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 24410000000,
+        "from": 24290000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "ByUMVlGj",
+    "transcript": "He's insisting i drive him",
+    "is_partial": true,
+    "to": 24770000000,
+    "from": 22970000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "word",
+        "text": "He's",
+        "is_partial": true,
+        "to": 23270000000,
+        "from": 22970000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "insisting",
+        "is_partial": true,
+        "to": 23810000000,
+        "from": 23270000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "i",
+        "is_partial": true,
+        "to": 23960000000,
+        "from": 23810000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "drive",
+        "is_partial": true,
+        "to": 24290000000,
+        "from": 23960000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "him",
+        "is_partial": true,
+        "to": 24590000000,
+        "from": 24290000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 24770000000,
+        "from": 24590000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "ByUMVlGj",
+    "transcript": "He's insisting i drive him off the",
+    "is_partial": true,
+    "to": 25130000000,
+    "from": 22970000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "word",
+        "text": "He's",
+        "is_partial": true,
+        "to": 23270000000,
+        "from": 22970000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "insisting",
+        "is_partial": true,
+        "to": 23810000000,
+        "from": 23270000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "i",
+        "is_partial": true,
+        "to": 23960000000,
+        "from": 23810000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "drive",
+        "is_partial": true,
+        "to": 24290000000,
+        "from": 23960000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "him",
+        "is_partial": true,
+        "to": 24590000000,
+        "from": 24290000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "off",
+        "is_partial": true,
+        "to": 24980000000,
+        "from": 24590000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "the",
+        "is_partial": true,
+        "to": 25070000000,
+        "from": 24980000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 25130000000,
+        "from": 25070000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "ByUMVlGj",
+    "transcript": "He's insisting i drive him off the nearest",
+    "is_partial": true,
+    "to": 25490000000,
+    "from": 22970000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "word",
+        "text": "He's",
+        "is_partial": true,
+        "to": 23270000000,
+        "from": 22970000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "insisting",
+        "is_partial": true,
+        "to": 23810000000,
+        "from": 23270000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "i",
+        "is_partial": true,
+        "to": 23960000000,
+        "from": 23810000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "drive",
+        "is_partial": true,
+        "to": 24290000000,
+        "from": 23960000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "him",
+        "is_partial": true,
+        "to": 24590000000,
+        "from": 24290000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "off",
+        "is_partial": true,
+        "to": 24980000000,
+        "from": 24590000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "the",
+        "is_partial": true,
+        "to": 25070000000,
+        "from": 24980000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "nearest",
+        "is_partial": true,
+        "to": 25430000000,
+        "from": 25070000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 25490000000,
+        "from": 25430000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "ByUMVlGj",
+    "transcript": "He's insisting i drive him off the nearest cliff",
+    "is_partial": true,
+    "to": 25850000000,
+    "from": 22970000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "word",
+        "text": "He's",
+        "is_partial": true,
+        "to": 23270000000,
+        "from": 22970000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "insisting",
+        "is_partial": true,
+        "to": 23810000000,
+        "from": 23270000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "i",
+        "is_partial": true,
+        "to": 23960000000,
+        "from": 23810000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "drive",
+        "is_partial": true,
+        "to": 24290000000,
+        "from": 23960000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "him",
+        "is_partial": true,
+        "to": 24590000000,
+        "from": 24290000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "off",
+        "is_partial": true,
+        "to": 24980000000,
+        "from": 24590000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "the",
+        "is_partial": true,
+        "to": 25070000000,
+        "from": 24980000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "nearest",
+        "is_partial": true,
+        "to": 25430000000,
+        "from": 25070000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "cliff",
+        "is_partial": true,
+        "to": 25850000000,
+        "from": 25430000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "ByUMVlGj",
+    "transcript": "He's insisting i drive him off the nearest cliff",
+    "is_partial": true,
+    "to": 26210000000,
+    "from": 22970000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "word",
+        "text": "He's",
+        "is_partial": true,
+        "to": 23270000000,
+        "from": 22970000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "insisting",
+        "is_partial": true,
+        "to": 23810000000,
+        "from": 23270000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "i",
+        "is_partial": true,
+        "to": 23960000000,
+        "from": 23810000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "drive",
+        "is_partial": true,
+        "to": 24290000000,
+        "from": 23960000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "him",
+        "is_partial": true,
+        "to": 24590000000,
+        "from": 24290000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "off",
+        "is_partial": true,
+        "to": 24980000000,
+        "from": 24590000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "the",
+        "is_partial": true,
+        "to": 25070000000,
+        "from": 24980000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "nearest",
+        "is_partial": true,
+        "to": 25430000000,
+        "from": 25070000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "cliff",
+        "is_partial": true,
+        "to": 26060000000,
+        "from": 25430000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 26210000000,
+        "from": 26060000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "ByUMVlGj",
+    "transcript": "He's insisting i drive him off the nearest cliff",
+    "is_partial": true,
+    "to": 26570000000,
+    "from": 22970000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "word",
+        "text": "He's",
+        "is_partial": true,
+        "to": 23270000000,
+        "from": 22970000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "insisting",
+        "is_partial": true,
+        "to": 23810000000,
+        "from": 23270000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "i",
+        "is_partial": true,
+        "to": 23960000000,
+        "from": 23810000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "drive",
+        "is_partial": true,
+        "to": 24290000000,
+        "from": 23960000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "him",
+        "is_partial": true,
+        "to": 24590000000,
+        "from": 24290000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "off",
+        "is_partial": true,
+        "to": 24980000000,
+        "from": 24590000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "the",
+        "is_partial": true,
+        "to": 25070000000,
+        "from": 24980000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "nearest",
+        "is_partial": true,
+        "to": 25430000000,
+        "from": 25070000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "cliff",
+        "is_partial": true,
+        "to": 26060000000,
+        "from": 25430000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 26570000000,
+        "from": 26060000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "ByUMVlGj",
+    "transcript": "He's insisting I drive him off the nearest cliff ",
+    "is_partial": false,
+    "to": 26060000000,
+    "from": 22970000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "word",
+        "text": "He's",
+        "is_partial": false,
+        "to": 23270000000,
+        "from": 22970000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "insisting",
+        "is_partial": false,
+        "to": 23810000000,
+        "from": 23270000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "I",
+        "is_partial": false,
+        "to": 23960000000,
+        "from": 23810000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "drive",
+        "is_partial": false,
+        "to": 24290000000,
+        "from": 23960000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "him",
+        "is_partial": false,
+        "to": 24590000000,
+        "from": 24290000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "off",
+        "is_partial": false,
+        "to": 24980000000,
+        "from": 24590000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "the",
+        "is_partial": false,
+        "to": 25070000000,
+        "from": 24980000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "nearest",
+        "is_partial": false,
+        "to": 25430000000,
+        "from": 25070000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "cliff",
+        "is_partial": false,
+        "to": 26060000000,
+        "from": 25430000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "3BN6ExW_",
+    "transcript": "",
+    "is_partial": true,
+    "to": 27390000000,
+    "from": 26160000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 27390000000,
+        "from": 26160000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "3BN6ExW_",
+    "transcript": "",
+    "is_partial": true,
+    "to": 27750000000,
+    "from": 26160000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 27750000000,
+        "from": 26160000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "3BN6ExW_",
+    "transcript": "",
+    "is_partial": true,
+    "to": 28110000000,
+    "from": 26160000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 28110000000,
+        "from": 26160000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "3BN6ExW_",
+    "transcript": "right.",
+    "is_partial": true,
+    "to": 28370000000,
+    "from": 26060000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 27830000000,
+        "from": 26060000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "right",
+        "is_partial": true,
+        "to": 28160000000,
+        "from": 27830000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 28370000000,
+        "from": 28370000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "3BN6ExW_",
+    "transcript": "right.",
+    "is_partial": true,
+    "to": 28730000000,
+    "from": 26060000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 27830000000,
+        "from": 26060000000,
+        "is_eos": true,
+        "speaker": null
+      },
+      {
+        "type": "word",
+        "text": "right",
+        "is_partial": true,
+        "to": 28160000000,
+        "from": 27830000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": true,
+        "to": 28730000000,
+        "from": 28730000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  },
+  {
+    "id": "3BN6ExW_",
+    "transcript": ". Right ",
+    "is_partial": false,
+    "to": 28160000000,
+    "from": 26060000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": false,
+        "to": 26060000000,
+        "from": 26060000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "Right",
+        "is_partial": false,
+        "to": 28160000000,
+        "from": 27830000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      }
+    ]
+  },
+  {
+    "id": "9KJYzFXq",
+    "transcript": "",
+    "is_partial": true,
+    "to": 29550000000,
+    "from": 28260000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "silence",
+        "text": "",
+        "is_partial": true,
+        "to": 29550000000,
+        "from": 28260000000,
+        "is_eos": true,
+        "speaker": null
+      }
+    ]
+  },
+  {
+    "id": "9KJYzFXq",
+    "transcript": ". Be right. ",
+    "is_partial": false,
+    "to": 29930000000,
+    "from": 28160000000,
+    "session_id": "9a119c13-d560-4fb7-a0c4-d57ea58b5717",
+    "records": [
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": false,
+        "to": 28160000000,
+        "from": 28160000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      },
+      {
+        "type": "word",
+        "text": "Be",
+        "is_partial": false,
+        "to": 29780000000,
+        "from": 29630000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "word",
+        "text": "right",
+        "is_partial": false,
+        "to": 29930000000,
+        "from": 29780000000,
+        "is_eos": false,
+        "speaker": null,
+        "attach_to_previous": false
+      },
+      {
+        "type": "punctuation",
+        "text": ".",
+        "is_partial": false,
+        "to": 29930000000,
+        "from": 29930000000,
+        "is_eos": true,
+        "speaker": null,
+        "attach_to_previous": true
+      }
+    ]
+  }
+]

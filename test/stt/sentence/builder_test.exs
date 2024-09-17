@@ -1,97 +1,81 @@
 defmodule STT.Sentence.BuilderTest do
   use ExUnit.Case
 
-  alias STT.Record
-  alias STT.Sentence
+  alias STT.Sentence.Builder
 
-  # 1 second in nano seconds
-  @max_silence 1_000_000_000
+  describe "builder" do
+    setup do
+      speechmatics =
+        "test/data/babylon.json"
+        |> File.read!()
+        |> Jason.decode!(keys: :atoms)
+        |> Enum.map(fn x ->
+          # Produce batches of records.
+          x.records
+          # The builder is not ment to be used with partial records.
+          |> Enum.reject(fn x -> x.is_partial end)
+        end)
+        # Taking out partials produces empty batches.
+        |> Enum.reject(&Enum.empty?/1)
 
-  describe "split_records/1" do
-    test "with an empty list" do
-      records = []
-      assert [] == split_records(records)
+      %{speechmatics: speechmatics, builder: %Builder{}}
     end
 
-    test "splits by silence" do
-      records = [
-        make_record(10, 20, "hello"),
-        make_record(2_000, 2_200, "world"),
-        make_record(2_200, 2_500, "!", type: "punctuation")
+    test "vod sentence production, eos mode", %{speechmatics: batched, builder: builder} do
+      {sentences, builder} = Enum.flat_map_reduce(batched, builder, &Builder.put_and_get/2)
+
+      assert Builder.empty?(builder)
+
+      want = [
+        "We have to do that, you know, to get my attention.",
+        "I am so sorry, Mr. Conrad.",
+        "What's your name?",
+        "Jen.",
+        "I just wanted you to look my way.",
+        "Jen.",
+        "I'd always look your way.",
+        "Sir George won't come out of the car.",
+        "He's insisting I drive him off the nearest cliff.",
+        "Right.",
+        "Be right."
       ]
 
-      assert ["hello", "world!"] ==
-               split_records(records) |> extract_text()
+      have =
+        sentences
+        |> List.flatten()
+        |> Enum.map(fn x -> to_string(x) end)
+
+      assert want == have
     end
 
-    test "split by eos" do
-      records = [
-        make_record(10, 20, "look"),
-        make_record(20, 30, "my"),
-        make_record(50, 60, "way"),
-        make_record(60, 60, ",", type: "punctuation"),
-        make_record(100, 110, "Jen"),
-        make_record(110, 110, ".", is_eos: true, type: "punctuation"),
-        make_record(200, 210, "I"),
-        make_record(220, 230, "will")
+    test "vod sentence production, punctuation mode", %{speechmatics: batched, builder: builder} do
+      builder = %Builder{builder | mode: :punctuation}
+
+      {sentences, builder} = Enum.flat_map_reduce(batched, builder, &Builder.put_and_get/2)
+
+      assert Builder.empty?(builder)
+
+      want = [
+        "We have to do that, you know,",
+        "to get my attention.",
+        "I am so sorry, Mr. Conrad.",
+        "What's your name?",
+        "Jen.",
+        "I just wanted you to look my way.",
+        "Jen.",
+        "I'd always look your way.",
+        "Sir George won't come out of the car.",
+        "He's insisting I drive him off the nearest cliff.",
+        "Right.",
+        "Be right."
       ]
 
-      assert ["look my way, Jen.", "I will"] ==
-               split_records(records) |> extract_text()
+      have =
+        sentences
+        |> List.flatten()
+        |> Enum.map(fn x -> to_string(x) end)
+
+      assert want == have
     end
-
-    test "split by punctuation" do
-      records = [
-        make_record(10, 20, "look"),
-        make_record(20, 30, "my"),
-        make_record(50, 60, "way"),
-        make_record(60, 60, ",", type: "punctuation"),
-        make_record(100, 110, "Jen"),
-        make_record(110, 110, ".", type: "punctuation"),
-        make_record(200, 210, "I"),
-        make_record(220, 230, "will")
-      ]
-
-      assert ["look my way, Jen.", "I will"] ==
-               split_records(records) |> extract_text()
-    end
-
-    test "split more than once" do
-      records = [
-        make_record(10, 20, "look"),
-        make_record(2000, 2100, "my"),
-        make_record(2100, 2200, "way"),
-        make_record(2200, 2200, ".", type: "punctuation"),
-        make_record(2300, 2400, "Jen")
-      ]
-
-      assert ["look", "my way.", "Jen"] ==
-               split_records(records) |> extract_text()
-    end
-  end
-
-  defp split_records(records) do
-    builder = %Sentence.Builder{silence_split_threshold: @max_silence}
-    {final_groups, builder} = Sentence.Builder.add_records(builder, records)
-    {partials, _builder} = Sentence.Builder.flush(builder)
-
-    final_groups ++ partials
-  end
-
-  defp make_record(from, to, text, opts \\ []) do
-    type = Keyword.get(opts, :type, "pronunciation")
-    is_eos = Keyword.get(opts, :is_eos, nil)
-
-    %Record{
-      from: from * 1_000_000,
-      to: to * 1_000_000,
-      text: text,
-      type: type,
-      is_eos: is_eos
-    }
-  end
-
-  defp extract_text(records_grouped) do
-    Enum.map(records_grouped, &to_string/1)
   end
 end
