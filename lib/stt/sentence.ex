@@ -20,7 +20,12 @@ defmodule STT.Sentence do
     |> Map.get(:from)
   end
 
-  def speakers(%{works: words}) do
+  def is_partial(%{words: words}) do
+    words
+    |> Enum.all?(fn x -> x.is_partial end)
+  end
+
+  def speakers(%{words: words}) do
     words
     |> Enum.map(fn x -> Map.get(x, :speaker) end)
     |> Enum.uniq()
