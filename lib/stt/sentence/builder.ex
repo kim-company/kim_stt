@@ -26,10 +26,19 @@ defmodule STT.Sentence.Builder do
   """
   @spec put_and_get(Record.t() | [Record.t()], t(), boolean()) :: {[Sentence.t()], t()}
   def put_and_get(records, builder, flush \\ false) do
+    records
+    |> put(builder)
+    |> get(flush)
+  end
+
+  def put(records, builder) do
     records = builder.pending ++ List.wrap(records)
     records = fix_leading_punctuation(records)
+    %__MODULE__{builder | pending: records}
+  end
 
-    {finals, partial} = split(records, builder.mode)
+  def get(builder, flush \\ false) do
+    {finals, partial} = split(builder.pending, builder.mode)
     sentences = build_sentences(finals, builder.language_info)
     builder = %__MODULE__{builder | pending: partial}
 

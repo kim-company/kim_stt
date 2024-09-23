@@ -77,5 +77,22 @@ defmodule STT.Sentence.BuilderTest do
 
       assert want == have
     end
+
+    test "splitting a sentence with commas", %{builder: builder} do
+      recs =
+        ~w/And so everyone just assumed these were sterile environments and then in the sort of late 90s , myself and a number/
+        |> Enum.map(fn
+          x = "," -> %{text: x, type: "punctuation"}
+          x -> %{text: x, type: "word"}
+        end)
+
+      builder = %Builder{builder | mode: :punctuation}
+      {[sentence], builder} = Enum.flat_map_reduce([recs], builder, &Builder.put_and_get/2)
+
+      refute Builder.empty?(builder)
+
+      assert to_string(sentence) ==
+               "And so everyone just assumed these were sterile environments and then in the sort of late 90s,"
+    end
   end
 end
