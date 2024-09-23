@@ -22,6 +22,12 @@ defprotocol STT.Transcriber do
   @spec language_code(t()) :: String.t()
   def language_code(t)
 
+  @doc """
+  Expected transcription delay expressed in nanoseconds.
+  """
+  @spec expected_delay(t()) :: pos_integer()
+  def expected_delay(_)
+
   @spec connect(t(), Keyword.t()) :: {:ok, conn()} | {:error, any()}
   def connect(transcriber, opts)
 
@@ -60,7 +66,7 @@ defprotocol STT.Transcriber do
   @spec send_eos(t(), conn()) :: :ok
   def send_eos(transcriber, conn)
 
-  @spec send_audio(t(), conn(), Membrane.Buffer.t()) :: :ok
+  @spec send_audio(t(), conn(), binary()) :: :ok
   def send_audio(transcriber, conn, buffer)
 
   @spec sentence_boundary_detection_mode(t()) :: STT.Sentence.Builder.sbd_mode()
