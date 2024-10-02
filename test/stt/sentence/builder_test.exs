@@ -22,7 +22,7 @@ defmodule STT.Sentence.BuilderTest do
     end
 
     test "vod sentence production, eos mode", %{speechmatics: batched, builder: builder} do
-      {sentences, builder} = Enum.flat_map_reduce(batched, builder, &Builder.put_and_get/2)
+      {sentences, builder} = build_sentences_no_silence(batched, builder)
 
       assert Builder.empty?(builder)
 
@@ -51,7 +51,7 @@ defmodule STT.Sentence.BuilderTest do
     test "vod sentence production, punctuation mode", %{speechmatics: batched, builder: builder} do
       builder = %Builder{builder | mode: :punctuation}
 
-      {sentences, builder} = Enum.flat_map_reduce(batched, builder, &Builder.put_and_get/2)
+      {sentences, builder} = build_sentences_no_silence(batched, builder)
 
       assert Builder.empty?(builder)
 
@@ -78,6 +78,29 @@ defmodule STT.Sentence.BuilderTest do
       assert want == have
     end
 
+    test "silence is isolated", %{builder: builder, speechmatics: batched} do
+      {sentences, _builder} = Enum.flat_map_reduce(batched, builder, &Builder.put_and_get/2)
+
+      sentences
+      |> Enum.map(fn x ->
+        # Either it is a sentence full of silence or does not
+        # begin or end with it.
+        if to_string(x) != "" do
+          {pre_silence, during} =
+            Enum.split_while(x.words, fn r -> r.type == "silence" or r.text == "" end)
+
+          {post_silence, during} =
+            during
+            |> Enum.reverse()
+            |> Enum.split_while(fn r -> r.type == "silence" or r.text == "" end)
+
+          assert Enum.empty?(pre_silence)
+          assert Enum.empty?(post_silence)
+          refute Enum.empty?(during)
+        end
+      end)
+    end
+
     test "splitting a sentence with commas", %{builder: builder} do
       recs =
         ~w/And so everyone just assumed these were sterile environments and then in the sort of late 90s , myself and a number/
@@ -94,5 +117,12 @@ defmodule STT.Sentence.BuilderTest do
       assert to_string(sentence) ==
                "And so everyone just assumed these were sterile environments and then in the sort of late 90s,"
     end
+  end
+
+  defp build_sentences_no_silence(records_batched, builder) do
+    {sentences, builder} =
+      Enum.flat_map_reduce(records_batched, builder, &Builder.put_and_get/2)
+
+    {Enum.filter(sentences, fn x -> to_string(x) != "" end), builder}
   end
 end

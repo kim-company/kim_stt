@@ -82,6 +82,17 @@ defmodule STT.Sentence.Builder do
   defp build_sentences(chunks, language_info) do
     chunks
     |> Enum.reject(&Enum.empty?/1)
+    |> Enum.flat_map(fn chunk ->
+      {pre_silence, during} = Enum.split_while(chunk, fn x -> x.type == "silence" end)
+
+      {post_silence_reversed, during_reversed} =
+        during
+        |> Enum.reverse()
+        |> Enum.split_while(fn x -> x.type == "silence" end)
+
+      batch = [pre_silence, Enum.reverse(during_reversed), Enum.reverse(post_silence_reversed)]
+      Enum.filter(batch, fn x -> x != [] end)
+    end)
     |> Enum.map(fn words ->
       %Sentence{
         words: words,
