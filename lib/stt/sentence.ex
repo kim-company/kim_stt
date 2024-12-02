@@ -29,15 +29,22 @@ defmodule STT.Sentence do
     end
 
     def to_string(sentence) do
-      sentence.words
-      |> Enum.filter(fn %{type: type} -> type != "silence" end)
-      |> Enum.scan(nil, fn
-        %{type: "punctuation"} = record, _ -> record.text
-        record, nil -> record.text
-        record, _ -> [sentence.language_info.word_delimiter, record.text]
-      end)
-      |> List.to_string()
-      |> remove_leading_punctuation()
+      words =
+        sentence.words
+        |> Enum.filter(fn %{type: type} -> type != "silence" end)
+        |> Enum.scan(nil, fn
+          %{type: "punctuation"} = record, _ -> record.text
+          record, nil -> record.text
+          record, _ -> [sentence.language_info.word_delimiter, record.text]
+        end)
+
+      if Enum.empty?(words) do
+        ""
+      else
+        words
+        |> List.to_string()
+        |> remove_leading_punctuation()
+      end
     end
   end
 end
