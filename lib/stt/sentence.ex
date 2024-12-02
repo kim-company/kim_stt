@@ -6,9 +6,10 @@ defmodule STT.Sentence do
           words: [Record.t()],
           is_partial: boolean(),
           speaker: nil | String.t(),
-          language_info: LanguageInfo.t()
+          language_info: LanguageInfo.t(),
+          id: nil | String.t()
         }
-  defstruct [:words, is_partial: true, speaker: nil, language_info: %LanguageInfo{}]
+  defstruct [:words, is_partial: true, speaker: nil, id: nil, language_info: %LanguageInfo{}]
 
   def duration(%{words: words}) when length(words) > 0 do
     first = List.first(words)
