@@ -14,6 +14,7 @@ defmodule STT.Sentence.BuilderTest do
           x.records
           # The builder is not ment to be used with partial records.
           |> Enum.reject(fn x -> x.is_partial end)
+          |> Enum.map(fn x -> put_in(x, [:language_code], "en") end)
         end)
         # Taking out partials produces empty batches.
         |> Enum.reject(&Enum.empty?/1)
@@ -108,6 +109,7 @@ defmodule STT.Sentence.BuilderTest do
           x = "," -> %{text: x, type: "punctuation"}
           x -> %{text: x, type: "word"}
         end)
+        |> Enum.map(fn x -> put_in(x, [:language_code], "en") end)
 
       builder = %Builder{builder | mode: :punctuation}
       {[sentence], builder} = Enum.flat_map_reduce([recs], builder, &Builder.put_and_get/2)

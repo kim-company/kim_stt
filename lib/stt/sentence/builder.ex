@@ -50,8 +50,8 @@ defmodule STT.Sentence.Builder do
     end
   end
 
-  def pending_sentence(builder) do
-    %STT.Sentence{words: builder.pending, language_info: builder.language_info}
+  def pending_sentences(builder) do
+    build_sentences(builder.pending, builder.language_info)
   end
 
   @doc """
@@ -94,8 +94,21 @@ defmodule STT.Sentence.Builder do
       Enum.filter(batch, fn x -> x != [] end)
     end)
     |> Enum.map(fn words ->
+      match =
+        words
+        |> Enum.group_by(fn w -> w.language_code end)
+        |> Enum.map(fn {code, x} -> {Enum.count(x), code} end)
+        |> Enum.sort(:desc)
+        |> List.first()
+
+      language_code = case match do
+        {_, x} -> x
+        nil -> ""
+      end
+
       %Sentence{
         words: words,
+        language_code: language_code,
         language_info: language_info
       }
     end)

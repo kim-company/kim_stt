@@ -36,6 +36,7 @@ defprotocol STT.Transcriber do
           required(:to) => pos_integer(),
           required(:text) => String.t(),
           required(:type) => String.t(),
+          required(:language_code) => String.t(),
           optional(:is_eos) => boolean(),
           optional(:speaker) => String.t()
         }
